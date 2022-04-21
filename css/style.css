@@ -11,6 +11,7 @@
 
 body {
   font-size: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 html{
@@ -118,6 +119,9 @@ header nav .branding {
   margin-top: -7rem;
 }
 
+.hero-image{
+  width: 90%;
+}
 section{
   padding: 6rem 0;
 }
@@ -536,7 +540,22 @@ footer .footer-socials{
  color: var(--light); 
 }
 
+.footer-socials a i{
+  font-size: 32px;
+  margin: 0 5px;
+  color: white;
+  transition: all 0.3s linear;
+}
 
+.footer-socials a:hover i {
+  transform: scale(1.2);
+}
+
+.social li a i {
+  font-size: 32px;
+  margin: 0 5px;
+  color: #3dcfd3;
+}
 
 footer .copyright{
   color: var(--ternary);
@@ -613,7 +632,7 @@ width: 30px;
     display: block;
   }
   .hero .left img{
-    width: 260px;
+    width: 90%;
   }
   .hero .right h1{
     font-size: 3rem ;
